@@ -18,13 +18,25 @@ While searching for a Rainmeter todo skin for my personal needs, I found a skin 
 
 ## Installing
 
-- Download and place entire `rainmeter-todo` folder in your Rainmeter skins location
+###### Via Installer
+
++ Go to [release](https://github.com/alperenozlu/rainmeter-todo/releases) page and download latest .rmskin file.
++ Install skin with double click to downloaded file.
++ Activate skin
+
+###### Via Source Code
+
+- Download this source code and place entire `rainmeter-todo` folder in your Rainmeter skins location. Generally it is look like `C:\Users\<USERNAME>\Documents\Rainmeter\Skins\`
+- Activate skin
+
+##### Activate Skin
+
 - Activate `rainmeter-todo` skin
   - You can do this by right-clicking on an already active skin to bring up the Rainmeter menu
   - Navigate to `Rainmeter > Skins > rainmeter-todo > todo > todo.ini`
     - If you do not see `rainmeter-todo` in the skin selection, try navigating to `Rainmeter > Refresh all`
 
-## Usage
+## Preview
 
 ![](https://raw.githubusercontent.com/alperenozlu/rainmeter-todo/master/screenshots/CreateTask.gif)
 
@@ -65,4 +77,11 @@ Added and deleted tasks are stored on a file basis. Since there is no database c
   - WHITE_COLOR : Task text color
   - OPAQUE_WHITE_COLOR : Completed text color
   - TRASH_LIMIT : By default, the trash bin keeps the last 10 deleted tasks. You can change this limit.
-- You can't delete the recurring tasks.
+- You can't delete the recurring tasks. It's not a bug it's a feature
+
+## Next Version [1.0.2]
+
+I plan to add the following features in future versions of the program. 
+
+- Interface for color settings
+- Code Optimization
