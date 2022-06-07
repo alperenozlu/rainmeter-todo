@@ -1,2 +1,4 @@
 task|x|x
-Example task|||
+No sweets||x|
+Set a day to meet friends|||
+Commit the latest changes|||
